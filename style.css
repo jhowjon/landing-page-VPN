@@ -417,3 +417,18 @@ img {
   margin-right: auto;
   width: 1060px;
 }
+
+.sponsored__container {
+  width: 1135px;
+  margin-top: 141px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sponsored__image {
+  width: 190px;
+  display: flex;
+}
