@@ -219,11 +219,11 @@ img {
   width: 1087px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: end;
 }
 
 .feature__image {
-  width: 70%;
+  width: 46%;
 }
 
 .feature__content {
@@ -267,6 +267,108 @@ img {
   font-weight: 400;
 }
 
-.feature__list-item {
-  text-decoration: center;
+.plans__card-container {
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.plans__container {
+  margin-top: 96px;
+  padding-top: 85px;
+  padding-bottom: 85px;
+  background: linear-gradient(
+    180deg,
+    #f8f8f8 -45.04%,
+    rgba(248, 248, 248, 0) 88.56%
+  );
+}
+
+.plans__title {
+  text-align: center;
+  color: #0b132a;
+  text-align: center;
+  font-family: "Rubik";
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.plans__title-description {
+  margin-top: 20px;
+  color: #4f5665;
+  text-align: center;
+  font-family: "Rubik";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.plans__card {
+  width: 330px;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  padding-left: 70px;
+  padding-right: 70px;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  background-color: #fff;
+}
+
+.plans__card-image {
+  width: 144px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.plans__card-title {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #0b132a;
+  text-align: center;
+  font-family: "Rubik";
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.plan__cards-text {
+  display: flex;
+  margin-bottom: 10px;
+  gap: 20px;
+  color: #4f5665;
+  font-family: "Rubik";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.plan__cards-image-check {
+  width: 24px;
+}
+
+.plan__type {
+  margin-top: 130px;
+  text-align: center;
+  color: #0b132a;
+  font-family: "Rubik";
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.button-select {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 177.876px;
+  height: 45px;
+  border-radius: 50px;
+  border: 2px solid #f53838;
+  text-align: center;
+  line-height: 45px;
+  color: #f53838;
+  font-family: "Rubik";
+  font-size: 16px;
+  font-weight: 700;
 }
