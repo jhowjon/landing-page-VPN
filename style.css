@@ -276,9 +276,10 @@ img {
   margin-top: 60px;
   margin-left: auto;
   margin-right: auto;
-  width: 1140px;
+  max-width: 1140px;
+  width: 90%;
   display: flex;
-  justify-content: space-between;
+  gap: 60px;
 }
 
 .plans__container {
@@ -311,7 +312,7 @@ img {
 }
 
 .plans__card {
-  width: 330px;
+  width: calc(33.33% - 40px);
   padding-top: 80px;
   padding-bottom: 50px;
   padding-left: 70px;
@@ -431,7 +432,8 @@ img {
 }
 
 .sponsored__container {
-  width: 1135px;
+  max-width: 1135px;
+  width: 90%;
   margin-top: 141px;
   margin-left: auto;
   margin-right: auto;
@@ -447,12 +449,12 @@ img {
 }
 
 .testimonials__container {
-  width: 90%;
   max-width: 1140px;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
 }
 
 .testimonial__head {
@@ -479,7 +481,7 @@ img {
 }
 
 .testimonails__box {
-  width: 90%;
+  width: calc(33.33% - 20px);
   max-width: 359px;
   margin-top: 60px;
   padding-top: 30px;
@@ -552,8 +554,8 @@ img {
   max-width: 1140px;
   position: absolute;
   top: -120px;
-  left: 150px;
-  right: 150px;
+  left: 0px;
+  right: 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -722,7 +724,7 @@ img {
   font-weight: 400;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1100px) {
   .header__container {
     width: 100%;
     flex-direction: column;
@@ -844,6 +846,8 @@ img {
   }
 
   .plans__card {
+    width: 100%;
+    max-width: 330px;
     padding-top: 45px;
     padding-bottom: 45px;
   }
